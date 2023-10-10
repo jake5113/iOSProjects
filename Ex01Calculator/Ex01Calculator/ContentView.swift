@@ -90,6 +90,8 @@ struct ContentView: View {
             }, label: {
                 Text("결과는?")
             })
+            .disabled(number.isEmpty)
+            
             
             Text("결과! : \(result)")
         }

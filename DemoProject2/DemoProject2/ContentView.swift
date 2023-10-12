@@ -13,7 +13,11 @@ struct ContentView: View {
             
             VStack {
                 NavigationLink(destination: BasicView(), label: {
-                    Text("Next View")
+                    Text("BasicView")
+                        .font(.largeTitle)
+                })
+                NavigationLink(destination: StackFrameView(), label: {
+                    Text("StackFrameView")
                         .font(.largeTitle)
                 })
             }

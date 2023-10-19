@@ -20,9 +20,13 @@ struct ContentView: View {
                     Text("StackFrameView")
                         .font(.largeTitle)
                 })
+                NavigationLink(destination: StateView(), label: {
+                    Text("StateView")
+                        .font(.largeTitle)
+                })
             }
             .padding()
-            .background(Color.teal)
+            .background(.teal)
         }
     }
 }

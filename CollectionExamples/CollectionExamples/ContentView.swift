@@ -22,6 +22,18 @@ struct ContentView: View {
                 Text("Ex11BasketBallView")
                     .padding()
             }
+            NavigationLink(destination: Ch23View()) {
+                Text("Ch23View - SwiftUI 예제 튜토리얼")
+                    .padding()
+            }
+            NavigationLink(destination: UIEx01View()) {
+                Text("UIEx01View")
+                    .padding()
+            }
+            NavigationLink(destination: UIEx02View()) {
+                Text("UIEx02View")
+                    .padding()
+            }
         }
     }
 }

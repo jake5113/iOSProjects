@@ -8,10 +8,27 @@
 import SwiftUI
 
 struct UIEx02View: View {
+    @State private var count = 0
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        GeometryReader { geometry in
+            VStack {
+                Spacer ()
+                Text ("\(count)")
+                Spacer ()
+                Button ("COUNT" ) {
+                    count += 1
+                }
+                .frame (width: geometry.size.width)
+                .padding (5)
+                .foregroundColor (Color.white)
+                .background (Color.indigo)
+                .cornerRadius (5)
+            }
+            .background (.teal)
+        }
     }
 }
+
 
 #Preview {
     UIEx02View()

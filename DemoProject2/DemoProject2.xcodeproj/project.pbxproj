@@ -13,6 +13,7 @@
 		9A3A1E602AD6249E00CFA063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A1E5F2AD6249E00CFA063 /* Assets.xcassets */; };
 		9A3A1E632AD6249E00CFA063 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A1E622AD6249E00CFA063 /* Preview Assets.xcassets */; };
 		9A3A1E6A2AD6413F00CFA063 /* BasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A1E692AD6413F00CFA063 /* BasicView.swift */; };
+		9A51F96B2AE0EC04007FCEB0 /* ConcurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A51F96A2AE0EC04007FCEB0 /* ConcurrencyView.swift */; };
 		9AA204ED2AD9189A002E7BE0 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA204EC2AD9189A002E7BE0 /* StateView.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		9A3A1E5F2AD6249E00CFA063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A3A1E622AD6249E00CFA063 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9A3A1E692AD6413F00CFA063 /* BasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicView.swift; sourceTree = "<group>"; };
+		9A51F96A2AE0EC04007FCEB0 /* ConcurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyView.swift; sourceTree = "<group>"; };
 		9AA204EC2AD9189A002E7BE0 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 				9A3A1E692AD6413F00CFA063 /* BasicView.swift */,
 				9A1F4E922AD7BCCE0060D4C1 /* StackFrameView.swift */,
 				9AA204EC2AD9189A002E7BE0 /* StateView.swift */,
+				9A51F96A2AE0EC04007FCEB0 /* ConcurrencyView.swift */,
 				9A3A1E5F2AD6249E00CFA063 /* Assets.xcassets */,
 				9A3A1E612AD6249E00CFA063 /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			files = (
 				9A3A1E6A2AD6413F00CFA063 /* BasicView.swift in Sources */,
 				9A3A1E5E2AD6249C00CFA063 /* ContentView.swift in Sources */,
+				9A51F96B2AE0EC04007FCEB0 /* ConcurrencyView.swift in Sources */,
 				9AA204ED2AD9189A002E7BE0 /* StateView.swift in Sources */,
 				9A3A1E5C2AD6249C00CFA063 /* DemoProject2App.swift in Sources */,
 				9A1F4E932AD7BCCE0060D4C1 /* StackFrameView.swift in Sources */,

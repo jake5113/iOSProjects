@@ -24,6 +24,10 @@ struct ContentView: View {
                     Text("StateView")
                         .font(.largeTitle)
                 })
+                NavigationLink(destination: ConcurrencyView(), label: {
+                    Text("ConcurrencyView")
+                        .font(.largeTitle)
+                })
             }
             .padding()
             .background(.teal)

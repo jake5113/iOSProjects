@@ -28,6 +28,18 @@ struct ContentView: View {
                     Text("ConcurrencyView")
                         .font(.largeTitle)
                 })
+                NavigationLink(destination: AppStorageView(), label: {
+                    Text("AppStorageView")
+                        .font(.largeTitle)
+                })
+                NavigationLink(destination: StorageNavigationView(), label: {
+                    Text("StorageNavigationView")
+                        .font(.largeTitle)
+                })
+                NavigationLink(destination: AlignmentView(), label: {
+                    Text("AlignmentView")
+                        .font(.largeTitle)
+                })
             }
             .padding()
             .background(.teal)

@@ -7,36 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A1F4E932AD7BCCE0060D4C1 /* StackFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F4E922AD7BCCE0060D4C1 /* StackFrameView.swift */; };
-		9A23CE132AEF342E0038AA83 /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23CE122AEF342E0038AA83 /* AppStorageView.swift */; };
-		9A23CE152AEF4F640038AA83 /* StorageNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23CE142AEF4F640038AA83 /* StorageNavigationView.swift */; };
-		9A23CE172AEF69360038AA83 /* AlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23CE162AEF69360038AA83 /* AlignmentView.swift */; };
-		9A3A1E5C2AD6249C00CFA063 /* DemoProject2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A1E5B2AD6249C00CFA063 /* DemoProject2App.swift */; };
-		9A3A1E5E2AD6249C00CFA063 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A1E5D2AD6249C00CFA063 /* ContentView.swift */; };
-		9A3A1E602AD6249E00CFA063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A1E5F2AD6249E00CFA063 /* Assets.xcassets */; };
-		9A3A1E632AD6249E00CFA063 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A1E622AD6249E00CFA063 /* Preview Assets.xcassets */; };
-		9A3A1E6A2AD6413F00CFA063 /* BasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A1E692AD6413F00CFA063 /* BasicView.swift */; };
-		9A51F96B2AE0EC04007FCEB0 /* ConcurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A51F96A2AE0EC04007FCEB0 /* ConcurrencyView.swift */; };
-		9AA204ED2AD9189A002E7BE0 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA204EC2AD9189A002E7BE0 /* StateView.swift */; };
+		9A23CE252AEF733C0038AA83 /* AlignmentToolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23CE242AEF733C0038AA83 /* AlignmentToolApp.swift */; };
+		9A23CE272AEF733C0038AA83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23CE262AEF733C0038AA83 /* ContentView.swift */; };
+		9A23CE292AEF73400038AA83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A23CE282AEF73400038AA83 /* Assets.xcassets */; };
+		9A23CE2C2AEF73400038AA83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A23CE2B2AEF73400038AA83 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A1F4E922AD7BCCE0060D4C1 /* StackFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackFrameView.swift; sourceTree = "<group>"; };
-		9A23CE122AEF342E0038AA83 /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
-		9A23CE142AEF4F640038AA83 /* StorageNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageNavigationView.swift; sourceTree = "<group>"; };
-		9A23CE162AEF69360038AA83 /* AlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentView.swift; sourceTree = "<group>"; };
-		9A3A1E582AD6249C00CFA063 /* DemoProject2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A3A1E5B2AD6249C00CFA063 /* DemoProject2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoProject2App.swift; sourceTree = "<group>"; };
-		9A3A1E5D2AD6249C00CFA063 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9A3A1E5F2AD6249E00CFA063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9A3A1E622AD6249E00CFA063 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9A3A1E692AD6413F00CFA063 /* BasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicView.swift; sourceTree = "<group>"; };
-		9A51F96A2AE0EC04007FCEB0 /* ConcurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyView.swift; sourceTree = "<group>"; };
-		9AA204EC2AD9189A002E7BE0 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		9A23CE212AEF733C0038AA83 /* AlignmentTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlignmentTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A23CE242AEF733C0038AA83 /* AlignmentToolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentToolApp.swift; sourceTree = "<group>"; };
+		9A23CE262AEF733C0038AA83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A23CE282AEF73400038AA83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A23CE2B2AEF73400038AA83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9A3A1E552AD6249C00CFA063 /* Frameworks */ = {
+		9A23CE1E2AEF733C0038AA83 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,44 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A3A1E4F2AD6249C00CFA063 = {
+		9A23CE182AEF733C0038AA83 = {
 			isa = PBXGroup;
 			children = (
-				9A3A1E5A2AD6249C00CFA063 /* DemoProject2 */,
-				9A3A1E592AD6249C00CFA063 /* Products */,
+				9A23CE232AEF733C0038AA83 /* AlignmentTool */,
+				9A23CE222AEF733C0038AA83 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9A3A1E592AD6249C00CFA063 /* Products */ = {
+		9A23CE222AEF733C0038AA83 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A3A1E582AD6249C00CFA063 /* DemoProject2.app */,
+				9A23CE212AEF733C0038AA83 /* AlignmentTool.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A3A1E5A2AD6249C00CFA063 /* DemoProject2 */ = {
+		9A23CE232AEF733C0038AA83 /* AlignmentTool */ = {
 			isa = PBXGroup;
 			children = (
-				9A3A1E5B2AD6249C00CFA063 /* DemoProject2App.swift */,
-				9A3A1E5D2AD6249C00CFA063 /* ContentView.swift */,
-				9A3A1E692AD6413F00CFA063 /* BasicView.swift */,
-				9A1F4E922AD7BCCE0060D4C1 /* StackFrameView.swift */,
-				9AA204EC2AD9189A002E7BE0 /* StateView.swift */,
-				9A51F96A2AE0EC04007FCEB0 /* ConcurrencyView.swift */,
-				9A23CE122AEF342E0038AA83 /* AppStorageView.swift */,
-				9A23CE142AEF4F640038AA83 /* StorageNavigationView.swift */,
-				9A23CE162AEF69360038AA83 /* AlignmentView.swift */,
-				9A3A1E5F2AD6249E00CFA063 /* Assets.xcassets */,
-				9A3A1E612AD6249E00CFA063 /* Preview Content */,
+				9A23CE242AEF733C0038AA83 /* AlignmentToolApp.swift */,
+				9A23CE262AEF733C0038AA83 /* ContentView.swift */,
+				9A23CE282AEF73400038AA83 /* Assets.xcassets */,
+				9A23CE2A2AEF73400038AA83 /* Preview Content */,
 			);
-			path = DemoProject2;
+			path = AlignmentTool;
 			sourceTree = "<group>";
 		};
-		9A3A1E612AD6249E00CFA063 /* Preview Content */ = {
+		9A23CE2A2AEF73400038AA83 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9A3A1E622AD6249E00CFA063 /* Preview Assets.xcassets */,
+				9A23CE2B2AEF73400038AA83 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -91,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A3A1E572AD6249C00CFA063 /* DemoProject2 */ = {
+		9A23CE202AEF733C0038AA83 /* AlignmentTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A3A1E662AD6249E00CFA063 /* Build configuration list for PBXNativeTarget "DemoProject2" */;
+			buildConfigurationList = 9A23CE2F2AEF73400038AA83 /* Build configuration list for PBXNativeTarget "AlignmentTool" */;
 			buildPhases = (
-				9A3A1E542AD6249C00CFA063 /* Sources */,
-				9A3A1E552AD6249C00CFA063 /* Frameworks */,
-				9A3A1E562AD6249C00CFA063 /* Resources */,
+				9A23CE1D2AEF733C0038AA83 /* Sources */,
+				9A23CE1E2AEF733C0038AA83 /* Frameworks */,
+				9A23CE1F2AEF733C0038AA83 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DemoProject2;
-			productName = DemoProject2;
-			productReference = 9A3A1E582AD6249C00CFA063 /* DemoProject2.app */;
+			name = AlignmentTool;
+			productName = AlignmentTool;
+			productReference = 9A23CE212AEF733C0038AA83 /* AlignmentTool.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9A3A1E502AD6249C00CFA063 /* Project object */ = {
+		9A23CE192AEF733C0038AA83 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					9A3A1E572AD6249C00CFA063 = {
-						CreatedOnToolsVersion = 15.0;
+					9A23CE202AEF733C0038AA83 = {
+						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 9A3A1E532AD6249C00CFA063 /* Build configuration list for PBXProject "DemoProject2" */;
+			buildConfigurationList = 9A23CE1C2AEF733C0038AA83 /* Build configuration list for PBXProject "AlignmentTool" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,49 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 9A3A1E4F2AD6249C00CFA063;
-			productRefGroup = 9A3A1E592AD6249C00CFA063 /* Products */;
+			mainGroup = 9A23CE182AEF733C0038AA83;
+			productRefGroup = 9A23CE222AEF733C0038AA83 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A3A1E572AD6249C00CFA063 /* DemoProject2 */,
+				9A23CE202AEF733C0038AA83 /* AlignmentTool */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9A3A1E562AD6249C00CFA063 /* Resources */ = {
+		9A23CE1F2AEF733C0038AA83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A3A1E632AD6249E00CFA063 /* Preview Assets.xcassets in Resources */,
-				9A3A1E602AD6249E00CFA063 /* Assets.xcassets in Resources */,
+				9A23CE2C2AEF73400038AA83 /* Preview Assets.xcassets in Resources */,
+				9A23CE292AEF73400038AA83 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9A3A1E542AD6249C00CFA063 /* Sources */ = {
+		9A23CE1D2AEF733C0038AA83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A3A1E6A2AD6413F00CFA063 /* BasicView.swift in Sources */,
-				9A3A1E5E2AD6249C00CFA063 /* ContentView.swift in Sources */,
-				9A51F96B2AE0EC04007FCEB0 /* ConcurrencyView.swift in Sources */,
-				9AA204ED2AD9189A002E7BE0 /* StateView.swift in Sources */,
-				9A23CE172AEF69360038AA83 /* AlignmentView.swift in Sources */,
-				9A3A1E5C2AD6249C00CFA063 /* DemoProject2App.swift in Sources */,
-				9A1F4E932AD7BCCE0060D4C1 /* StackFrameView.swift in Sources */,
-				9A23CE152AEF4F640038AA83 /* StorageNavigationView.swift in Sources */,
-				9A23CE132AEF342E0038AA83 /* AppStorageView.swift in Sources */,
+				9A23CE272AEF733C0038AA83 /* ContentView.swift in Sources */,
+				9A23CE252AEF733C0038AA83 /* AlignmentToolApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9A3A1E642AD6249E00CFA063 /* Debug */ = {
+		9A23CE2D2AEF73400038AA83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		9A3A1E652AD6249E00CFA063 /* Release */ = {
+		9A23CE2E2AEF73400038AA83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,14 +264,14 @@
 			};
 			name = Release;
 		};
-		9A3A1E672AD6249E00CFA063 /* Debug */ = {
+		9A23CE302AEF73400038AA83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DemoProject2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AlignmentTool/Preview Content\"";
 				DEVELOPMENT_TEAM = 2252348JAM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -313,7 +285,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jake5113.DemoProject2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jake5113.AlignmentTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -321,14 +293,14 @@
 			};
 			name = Debug;
 		};
-		9A3A1E682AD6249E00CFA063 /* Release */ = {
+		9A23CE312AEF73400038AA83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DemoProject2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AlignmentTool/Preview Content\"";
 				DEVELOPMENT_TEAM = 2252348JAM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -342,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jake5113.DemoProject2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jake5113.AlignmentTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A3A1E532AD6249C00CFA063 /* Build configuration list for PBXProject "DemoProject2" */ = {
+		9A23CE1C2AEF733C0038AA83 /* Build configuration list for PBXProject "AlignmentTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A3A1E642AD6249E00CFA063 /* Debug */,
-				9A3A1E652AD6249E00CFA063 /* Release */,
+				9A23CE2D2AEF73400038AA83 /* Debug */,
+				9A23CE2E2AEF73400038AA83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A3A1E662AD6249E00CFA063 /* Build configuration list for PBXNativeTarget "DemoProject2" */ = {
+		9A23CE2F2AEF73400038AA83 /* Build configuration list for PBXNativeTarget "AlignmentTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A3A1E672AD6249E00CFA063 /* Debug */,
-				9A3A1E682AD6249E00CFA063 /* Release */,
+				9A23CE302AEF73400038AA83 /* Debug */,
+				9A23CE312AEF73400038AA83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9A3A1E502AD6249C00CFA063 /* Project object */;
+	rootObject = 9A23CE192AEF733C0038AA83 /* Project object */;
 }

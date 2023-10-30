@@ -9,7 +9,24 @@ import SwiftUI
 
 struct StackAlignEx01View: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack(alignment: .firstTextBaseline) {
+                Text("Hello")
+                    .font(.largeTitle)
+                Text("World")
+            }
+        }
+        ZStack(alignment: .leading) {
+            Rectangle()
+                .fill(Color.red)
+                .alignmentGuide(.leading, computeValue: { dimension in
+                    dimension.width
+                })
+                .frame(width: 100, height: 100)
+            Rectangle()
+                .fill(Color.blue)
+                .frame(width: 50, height: 50)
+        }
     }
 }
 

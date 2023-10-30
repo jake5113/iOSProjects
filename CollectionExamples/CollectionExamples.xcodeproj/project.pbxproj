@@ -12,6 +12,10 @@
 		9A1F4EA52AD7CE640060D4C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A1F4EA42AD7CE640060D4C1 /* Assets.xcassets */; };
 		9A1F4EA82AD7CE640060D4C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A1F4EA72AD7CE640060D4C1 /* Preview Assets.xcassets */; };
 		9A1F4EAF2AD7CEBD0060D4C1 /* Ex09OddEvenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F4EAE2AD7CEBD0060D4C1 /* Ex09OddEvenView.swift */; };
+		9A23CE332AEF814A0038AA83 /* UIEx04View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23CE322AEF814A0038AA83 /* UIEx04View.swift */; };
+		9A23CE352AEF8FB60038AA83 /* UIEx05View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23CE342AEF8FB60038AA83 /* UIEx05View.swift */; };
+		9A23CE372AEF94D40038AA83 /* AlignmentZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23CE362AEF94D40038AA83 /* AlignmentZStackView.swift */; };
+		9A23CE392AEFA32E0038AA83 /* StackAlignEx01View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23CE382AEFA32E0038AA83 /* StackAlignEx01View.swift */; };
 		9A51F96D2AE11C06007FCEB0 /* ConcurrencyEx01View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A51F96C2AE11C06007FCEB0 /* ConcurrencyEx01View.swift */; };
 		9A51F96F2AE12030007FCEB0 /* ConcurrencyEx02View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A51F96E2AE12030007FCEB0 /* ConcurrencyEx02View.swift */; };
 		9A52B40D2ADD047800B13676 /* UIEx02View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52B40C2ADD047800B13676 /* UIEx02View.swift */; };
@@ -28,6 +32,10 @@
 		9A1F4EA42AD7CE640060D4C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A1F4EA72AD7CE640060D4C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9A1F4EAE2AD7CEBD0060D4C1 /* Ex09OddEvenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex09OddEvenView.swift; sourceTree = "<group>"; };
+		9A23CE322AEF814A0038AA83 /* UIEx04View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEx04View.swift; sourceTree = "<group>"; };
+		9A23CE342AEF8FB60038AA83 /* UIEx05View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEx05View.swift; sourceTree = "<group>"; };
+		9A23CE362AEF94D40038AA83 /* AlignmentZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentZStackView.swift; sourceTree = "<group>"; };
+		9A23CE382AEFA32E0038AA83 /* StackAlignEx01View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackAlignEx01View.swift; sourceTree = "<group>"; };
 		9A51F96C2AE11C06007FCEB0 /* ConcurrencyEx01View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyEx01View.swift; sourceTree = "<group>"; };
 		9A51F96E2AE12030007FCEB0 /* ConcurrencyEx02View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyEx02View.swift; sourceTree = "<group>"; };
 		9A52B40C2ADD047800B13676 /* UIEx02View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEx02View.swift; sourceTree = "<group>"; };
@@ -77,6 +85,10 @@
 				9A52B40C2ADD047800B13676 /* UIEx02View.swift */,
 				9A51F96C2AE11C06007FCEB0 /* ConcurrencyEx01View.swift */,
 				9A51F96E2AE12030007FCEB0 /* ConcurrencyEx02View.swift */,
+				9A23CE322AEF814A0038AA83 /* UIEx04View.swift */,
+				9A23CE342AEF8FB60038AA83 /* UIEx05View.swift */,
+				9A23CE362AEF94D40038AA83 /* AlignmentZStackView.swift */,
+				9A23CE382AEFA32E0038AA83 /* StackAlignEx01View.swift */,
 				9A1F4EA42AD7CE640060D4C1 /* Assets.xcassets */,
 				9A1F4EA62AD7CE640060D4C1 /* Preview Content */,
 			);
@@ -164,12 +176,16 @@
 				9AA204CF2AD7DBEA002E7BE0 /* Ex10BigMinSmallView.swift in Sources */,
 				9A1F4EA32AD7CE620060D4C1 /* ContentView.swift in Sources */,
 				9AA204D12AD7E7D0002E7BE0 /* Ex11BasketBallView.swift in Sources */,
+				9A23CE332AEF814A0038AA83 /* UIEx04View.swift in Sources */,
+				9A23CE372AEF94D40038AA83 /* AlignmentZStackView.swift in Sources */,
 				9A51F96D2AE11C06007FCEB0 /* ConcurrencyEx01View.swift in Sources */,
 				9A52B40D2ADD047800B13676 /* UIEx02View.swift in Sources */,
+				9A23CE392AEFA32E0038AA83 /* StackAlignEx01View.swift in Sources */,
 				9A1F4EAF2AD7CEBD0060D4C1 /* Ex09OddEvenView.swift in Sources */,
 				9A921E242AD93716009E287B /* Ch23View.swift in Sources */,
 				9A51F96F2AE12030007FCEB0 /* ConcurrencyEx02View.swift in Sources */,
 				9A921E262ADCD71F009E287B /* UIEx01View.swift in Sources */,
+				9A23CE352AEF8FB60038AA83 /* UIEx05View.swift in Sources */,
 				9A1F4EA12AD7CE620060D4C1 /* CollectionExamplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

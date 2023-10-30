@@ -42,6 +42,22 @@ struct ContentView: View {
                 Text("ConcurrencyEx02View")
                     .padding()
             }
+            NavigationLink(destination: UIEx04View()) {
+                Text("UIEx04View")
+                    .padding()
+            }
+            NavigationLink(destination: UIEx05View()) {
+                Text("UIEx05View")
+                    .padding()
+            }
+            NavigationLink(destination: AlignmentZStackView()) {
+                Text("AlignmentZStackView")
+                    .padding()
+            }
+            NavigationLink(destination: StackAlignEx01View()) {
+                Text("StackAlignEx01View")
+                    .padding()
+            }
         }
     }
 }

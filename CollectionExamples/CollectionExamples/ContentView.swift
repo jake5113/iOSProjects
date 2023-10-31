@@ -58,6 +58,10 @@ struct ContentView: View {
                 Text("StackAlignEx01View")
                     .padding()
             }
+            NavigationLink(destination: SceneAppStorageNavView()) {
+                Text("SceneAppStorageNavView")
+                    .padding()
+            }
         }
     }
 }

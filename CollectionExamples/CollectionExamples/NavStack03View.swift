@@ -9,9 +9,29 @@ import SwiftUI
 
 struct NavStack03View: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            Text("")
+                .navigationTitle("First View")
+                .navigationBarItems(trailing:NavigationLink(
+                    destination: NavStack03SecondView()
+                        .navigationBarBackButtonHidden(),
+                    label: {
+                        Image(systemName: "person")
+                        .foregroundStyle(.red)})
+                )
+        }
     }
 }
+
+struct NavStack03SecondView: View {
+    var body: some View {
+        ZStack{
+            Color(.blue).ignoresSafeArea()
+            Text("Hello")
+        }
+    }
+}
+
 
 #Preview {
     NavStack03View()

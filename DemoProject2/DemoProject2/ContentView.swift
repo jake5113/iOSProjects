@@ -40,6 +40,10 @@ struct ContentView: View {
                     Text("AlignmentView")
                         .font(.largeTitle)
                 })
+                NavigationLink(destination: ListNavDemoView(), label: {
+                    Text("ListNavDemoView")
+                        .font(.largeTitle)
+                })
             }
             .padding()
             .background(.teal)

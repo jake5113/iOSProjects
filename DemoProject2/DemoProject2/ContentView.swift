@@ -44,6 +44,10 @@ struct ContentView: View {
                     Text("ListNavDemoView")
                         .font(.largeTitle)
                 })
+                NavigationLink(destination: PhotoPickerSampleView(), label: {
+                    Text("PhotoPickerSampleView")
+                        .font(.largeTitle)
+                })
             }
             .padding()
             .background(.teal)

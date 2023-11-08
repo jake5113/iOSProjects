@@ -28,6 +28,7 @@ struct CarDetailView: View {
                 Text(selectedCar.description)
                     .font(.body)
                 
+                
                 HStack {
                     Text("Hybrid").font(.headline)
                     Spacer()

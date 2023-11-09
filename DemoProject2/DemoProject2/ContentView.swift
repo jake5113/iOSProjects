@@ -48,6 +48,10 @@ struct ContentView: View {
                     Text("PhotoPickerSampleView")
                         .font(.largeTitle)
                 })
+                NavigationLink(destination: TabViewDemoView(), label: {
+                    Text("TabViewDemoView")
+                        .font(.largeTitle)
+                })
             }
             .padding()
             .background(.teal)

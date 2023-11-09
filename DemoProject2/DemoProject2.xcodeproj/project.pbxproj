@@ -21,6 +21,9 @@
 		9A849B6D2AF0DA62001A5FD9 /* ListNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A849B6C2AF0DA62001A5FD9 /* ListNavigationView.swift */; };
 		9AA204ED2AD9189A002E7BE0 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA204EC2AD9189A002E7BE0 /* StateView.swift */; };
 		9AB7001B2AF4C80F00370A4D /* PhotoPickerSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB7001A2AF4C80F00370A4D /* PhotoPickerSampleView.swift */; };
+		9AB7004C2AFC69D100370A4D /* GridRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB7004B2AFC69D100370A4D /* GridRowView.swift */; };
+		9AB7004E2AFC790F00370A4D /* TabViewDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB7004D2AFC790F00370A4D /* TabViewDemoView.swift */; };
+		9AB700502AFC803000370A4D /* ContextMenuDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB7004F2AFC803000370A4D /* ContextMenuDemoView.swift */; };
 		9AEFC7952AF3244B0062489E /* ListNavDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFC7942AF3244B0062489E /* ListNavDemoView.swift */; };
 		9AEFC7972AF325F30062489E /* CarAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFC7962AF325F30062489E /* CarAssets.xcassets */; };
 		9AEFC79B2AF326F40062489E /* carData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFC79A2AF326F40062489E /* carData.json */; };
@@ -45,6 +48,9 @@
 		9A849B6C2AF0DA62001A5FD9 /* ListNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationView.swift; sourceTree = "<group>"; };
 		9AA204EC2AD9189A002E7BE0 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		9AB7001A2AF4C80F00370A4D /* PhotoPickerSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerSampleView.swift; sourceTree = "<group>"; };
+		9AB7004B2AFC69D100370A4D /* GridRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridRowView.swift; sourceTree = "<group>"; };
+		9AB7004D2AFC790F00370A4D /* TabViewDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDemoView.swift; sourceTree = "<group>"; };
+		9AB7004F2AFC803000370A4D /* ContextMenuDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuDemoView.swift; sourceTree = "<group>"; };
 		9AEFC7942AF3244B0062489E /* ListNavDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavDemoView.swift; sourceTree = "<group>"; };
 		9AEFC7962AF325F30062489E /* CarAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CarAssets.xcassets; sourceTree = "<group>"; };
 		9AEFC79A2AF326F40062489E /* carData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carData.json; sourceTree = "<group>"; };
@@ -99,6 +105,9 @@
 				9AEFC7A02AF33BF50062489E /* ListNavDemoAddNewCarView.swift */,
 				9AEFC79C2AF3292F0062489E /* loadJson.swift */,
 				9AB7001A2AF4C80F00370A4D /* PhotoPickerSampleView.swift */,
+				9AB7004B2AFC69D100370A4D /* GridRowView.swift */,
+				9AB7004D2AFC790F00370A4D /* TabViewDemoView.swift */,
+				9AB7004F2AFC803000370A4D /* ContextMenuDemoView.swift */,
 				9AEFC79A2AF326F40062489E /* carData.json */,
 				9A3A1E5F2AD6249E00CFA063 /* Assets.xcassets */,
 				9AEFC7962AF325F30062489E /* CarAssets.xcassets */,
@@ -187,14 +196,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AB7004E2AFC790F00370A4D /* TabViewDemoView.swift in Sources */,
 				9A3A1E6A2AD6413F00CFA063 /* BasicView.swift in Sources */,
 				9A849B6B2AF0D27B001A5FD9 /* ExAlignmentView.swift in Sources */,
+				9AB7004C2AFC69D100370A4D /* GridRowView.swift in Sources */,
 				9AEFC7A12AF33BF50062489E /* ListNavDemoAddNewCarView.swift in Sources */,
 				9AEFC79F2AF3341D0062489E /* ListNavDemoCarDetailView.swift in Sources */,
 				9A3A1E5E2AD6249C00CFA063 /* ContentView.swift in Sources */,
 				9A51F96B2AE0EC04007FCEB0 /* ConcurrencyView.swift in Sources */,
 				9A849B6D2AF0DA62001A5FD9 /* ListNavigationView.swift in Sources */,
 				9AA204ED2AD9189A002E7BE0 /* StateView.swift in Sources */,
+				9AB700502AFC803000370A4D /* ContextMenuDemoView.swift in Sources */,
 				9A23CE172AEF69360038AA83 /* AlignmentView.swift in Sources */,
 				9A3A1E5C2AD6249C00CFA063 /* DemoProject2App.swift in Sources */,
 				9A1F4E932AD7BCCE0060D4C1 /* StackFrameView.swift in Sources */,
